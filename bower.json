@@ -1,0 +1,24 @@
+{
+  "name": "diplom",
+  "description": "diplom ======",
+  "main": "index.js",
+  "authors": [
+    "vlad <vladislav.kosko@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-easing": "*",
+    "angular": "^1.6.1",
+    "angular-ui-router": "ui-router#^0.3.2",
+    "angular-carousel": "^1.0.1",
+    "wow": "wow.js#^1.1.2"
+  }
+}
