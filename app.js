@@ -29,6 +29,7 @@ function AppRun($rootScope) {
     console.log('bootstrapped!');
     $rootScope.$on('$stateChangeStart', function () {
         new WOW().sync();
+        document.body.scrollTop = 0;
     });
 }
 
