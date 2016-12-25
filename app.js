@@ -12,9 +12,6 @@ function AppConfig($stateProvider, $urlRouterProvider) {
         .state('home', {url: '/', templateUrl: 'app/home.html'})
         .state('pro', {url: '/pro', templateUrl: 'app/pro.html'})
         .state('air2', {url: '/air2', templateUrl: 'app/air2.html'})
-        .state('mini2', {url: '/mini2', templateUrl: 'app/mini2.html'})
-        .state('mini4', {url: '/mini4', templateUrl: 'app/mini4.html'})
-        .state('ios10', {url: '/iOS10', templateUrl: 'app/ios10.html'})
         .state('accessories', {url: '/accessories', templateUrl: 'app/accessories.html'})
     ;
 
