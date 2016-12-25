@@ -19,12 +19,17 @@ function AppConfig($stateProvider, $urlRouterProvider) {
     ;
 
     $urlRouterProvider.otherwise('/');
+
+    new WOW().init();
 }
 
 AppConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
 
-function AppRun() {
+function AppRun($rootScope) {
     console.log('bootstrapped!');
+    $rootScope.$on('$stateChangeStart', function () {
+        new WOW().sync();
+    });
 }
 
-AppRun.$inject = [];
+AppRun.$inject = ['$rootScope'];

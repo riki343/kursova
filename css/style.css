@@ -8,6 +8,24 @@
     text-decoration: underline;
 }
 
+.description-header {
+    color: black;
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.description-content {
+    padding: 5px 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 40px;
+    text-align: justify;
+}
+
 [ng-cloak] {
     height: 1vh;
     width: 100%;
@@ -25,7 +43,7 @@
     z-index: 1000;
     margin: auto;
     top: 56px;
-    left: 120px;
+    left: 157px;
 }
 
 .carousel {
